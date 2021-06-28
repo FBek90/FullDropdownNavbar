@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins sans-serif;
+}
+
+:root {
+  /* fonts */
+  --navbar-title-size: 25px;
+  --nav-item-size: 13px;
+  --homepage-title-size: 60px;
+  --font-size-primary: 16px;
+  --font-size-secondary: 14px;
+  --primary-title-size: 30px;
+  --secondary-title-size: 18px;
+  --items-sale-size: 10px;
+
+  /** Colors **/
+
+  /** divided into sections to clarify which one to use in which page   **/
+
+  /** Home page */
+  --active-bg-blue-color: #0061DF;
+  --active-bg-yellow-color: #FFBC01;
+  --bg-testimonials-color: #F5F7FC;
+  --common-orange-color: #FF783D;
+  --property-bg-text-color: #FF6E00;
+
+  /**Property page*/
+  --content-bg-color: #E6E9EC;
+
+
+
+  /**Realtor page*/
+  --icon-hover-color: #696969;
+
+
+  /** Dashboard page*/
+  --user-message-blue: #1967D2;
+  --user-message-green: #34A853;
+
+  --user-message-yellow: #F9AB00;
+
+  /**Blog shop page*/
+  --tag-bg-color: #E6E9EC;
+  --facebook-bg-color: #306199;
+  --twitter-bg-color: #26C4F1;
+  --pinterest-bg-color: #E82B2D;
+
+  /**Other Pages*/
+  --user-pending-bg-color: #EEF6FD;
+  --user-admin-bg-color: #FBFAE3;
+  --error-bg-color: #FBECEB;
+  --updated-bg-color: #EFF7E5;
+
+
+
+
+  /** Common colors used everywhere **/
+  --default-text-color: #FFFFFF;
+  --default-description-color: #696969;
+  --common-dark-color: #0D263B;
+  --common-blue-color: #0061DF;
+  --common-green-color: #006766;
+  --common-dark-coral-color: #CC5040;
+  --dark-bg-color: #282F34;
+  --light-bg-color: #F6F8F9;
+  --whatsapp-input-color: #48C740;
+
+  /**Buttons' hover color*/
+  --blue-hover-button-color: #004FB5;
+  --dark-hover-button-color: #183955;
+  --light-gray-hover-button-color: #AFC5D3;
+
+
+
+}
